@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Voice',
+      title: 'Flutter Voice UI',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         canvasColor: const Color.fromARGB(255, 123, 29, 0),
