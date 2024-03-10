@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Voice',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        canvasColor: Colors.deepOrangeAccent[300],
+        canvasColor: const Color.fromARGB(255, 123, 29, 0),
           primarySwatch: Colors.red,
       //    visualDensity: VisualDensity.adaptivePlatformDensity
       ),
