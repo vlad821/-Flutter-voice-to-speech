@@ -36,12 +36,14 @@ class SpeechScreen extends StatefulWidget {
 class _SpeechScreenState extends State<SpeechScreen> {
   final Map<String, HighlightedWord> _highlights = {
     'flutter ': HighlightedWord(
+        // ignore: avoid_print
         onTap: () => print('flutter'),
         textStyle: const TextStyle(
           color: Colors.blue,
           fontWeight: FontWeight.bold,
         )),
     'Voice ': HighlightedWord(
+        // ignore: avoid_print
         onTap: () => print('voice'),
         textStyle: const TextStyle(
           color: Colors.blue,
